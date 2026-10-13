@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E2646"/>
+      <stop offset="50%" stop-color="#0B1F3A"/>
+      <stop offset="100%" stop-color="#06101E"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5C5"/>
+      <stop offset="50%" stop-color="#C9A24B"/>
+      <stop offset="100%" stop-color="#8C6C2B"/>
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B3F70"/>
+      <stop offset="100%" stop-color="#0E2646"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle decorative grid -->
+  <line x1="0" y1="100" x2="400" y2="100" stroke="#132F55" stroke-width="1" stroke-dasharray="4 4" opacity="0.4"/>
+  <line x1="0" y1="200" x2="400" y2="200" stroke="#132F55" stroke-width="1" stroke-dasharray="4 4" opacity="0.4"/>
+  <line x1="0" y1="300" x2="400" y2="300" stroke="#132F55" stroke-width="1" stroke-dasharray="4 4" opacity="0.4"/>
+  <line x1="100" y1="0" x2="100" y2="400" stroke="#132F55" stroke-width="1" stroke-dasharray="4 4" opacity="0.4"/>
+  <line x1="200" y1="0" x2="200" y2="400" stroke="#132F55" stroke-width="1" stroke-dasharray="4 4" opacity="0.4"/>
+  <line x1="300" y1="0" x2="300" y2="400" stroke="#132F55" stroke-width="1" stroke-dasharray="4 4" opacity="0.4"/>
+
+  <!-- Financial decorative chart silhouette behind profile -->
+  <path d="M 40 280 L 100 240 L 160 260 L 220 190 L 280 210 L 340 140 L 360 150" fill="none" stroke="#C9A24B" stroke-width="2" opacity="0.25"/>
+
+  <!-- Outer subtle circular ring -->
+  <circle cx="200" cy="180" r="130" fill="none" stroke="url(#goldAccent)" stroke-width="2" opacity="0.5" stroke-dasharray="6 6"/>
+  <circle cx="200" cy="180" r="120" fill="#0B1F3A" stroke="#1B3F70" stroke-width="2"/>
+
+  <!-- Stylized professional bust silhouette -->
+  <!-- Shoulders & Suit -->
+  <path d="M 90 360 C 95 285 140 265 170 255 L 200 285 L 230 255 C 260 265 305 285 310 360 Z" fill="url(#suitGrad)"/>
+  <!-- Shirt collar -->
+  <polygon points="175,255 200,295 185,258" fill="#F8FAFC"/>
+  <polygon points="225,255 200,295 215,258" fill="#F8FAFC"/>
+  <!-- Gold tie -->
+  <polygon points="196,270 204,270 206,325 200,340 194,325" fill="url(#goldAccent)"/>
+  
+  <!-- Neck -->
+  <rect x="186" y="210" width="28" height="48" rx="6" fill="#DDBE6F" opacity="0.85"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="175" rx="46" ry="58" fill="#DDBE6F" opacity="0.85"/>
+  <!-- Professional hairstyle -->
+  <path d="M 152 165 C 150 120 180 110 200 110 C 228 110 248 120 248 160 C 242 145 230 135 200 135 C 170 135 158 150 152 165 Z" fill="#0E2646"/>
+
+  <!-- Initials badge overlay -->
+  <circle cx="200" cy="335" r="26" fill="#0B1F3A" stroke="url(#goldAccent)" stroke-width="2"/>
+  <text x="200" y="343" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="700" fill="url(#goldAccent)" text-anchor="middle">SG</text>
+</svg>
