@@ -122,7 +122,7 @@ export const PERSONAL_INFO: PersonalInfo = {
   ],
   bioObjective:
     "MBA Applied Finance student with practical experience in financial analysis, investment research and stock market analytics gained through internships and live projects. Passionate about capital markets and equity research, with proficiency in MS Excel, Power BI and financial analytical tools. Seeking opportunities in Finance, Equity Research, Investment Banking or Wealth Management.",
-  profilePhoto: "/assets/profile-avatar.svg", // Replace with /assets/profile.jpg once personal picture is available
+  profilePhoto: "/assets/profile.jpg", // Place your picture in public/assets/profile.jpg (auto-falls back to avatar if not present)
   resumeUrl: "/assets/resume-saurabh-gautam.pdf", // Downloadable PDF resume
   email: "25LMMB5002@culkomail.in",
   phone: "+91 9795990015",
